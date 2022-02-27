@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Contact us page template</title>
+    <style>
+         body {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(41, 39, 39);
+            background-image:url(https://images.unsplash.com/photo-1501420264597-23296a7e6a46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmlnaHQlMjBsaWdodHxlbnwwfHwwfHw%3D&w=1000&q=80);
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 500px;
+            margin: 15vh auto;
+            padding: 15px;
+            border-radius: 15px;
+            border: none;
+            box-shadow: 0 0 15px rgb(180, 51, 73);
+            /* background-color: gray; */
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+        }
+        
+        input {
+            width: 100%;
+            margin: 5px 0;
+            height: 35px;
+            font-size: 17px;
+            text-align: center;
+            outline: none;
+            border-radius: 15px;
+            border: none;
+            background: rgb(235, 228, 228);
+        }
+        
+        textarea {
+            width: 100%;
+            margin: 5px 0;
+            font-size: 17px;
+            text-align: center;
+            outline: none;
+            border-radius: 15px;
+            border: none;
+            background: rgb(235, 228, 228);
+        }
+        input[type=submit]{
+            margin: 10px auto;
+            width: 120px;
+            background: rgb(216, 31, 62);
+            color: white;
+            cursor: pointer;
+        }
+        input[type=submit]:hover{
+        background: tomato;
+        }
+        @media screen and (max-width:600px) {
+            .container{
+                width: 90%;
+            }
+        }
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(143, 196, 245);
+            background-color: rgba(224, 217, 217, 0.863);
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 25px;
+        }
+        hr{
+            width: 80%;
+        }
+        h2{
+            font-size: 20px;
+        }
+        .contact-items{
+            display: flex;
+            margin: 30px auto;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+        .customer-care,.write-us,.sales-market{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 28%;
+            margin: 30px auto;
+            padding: 35px 15px;
+            border-radius: 15px;
+            text-align: center;
+            min-width: 250px;
+            
+        }
+        .customer-care{
+            height: 250px;
+            box-shadow: 0 15px 15px green;
+            border: 1px solid green;
+        }
+        .write-us{
+            height: 250px;
+            box-shadow: 0 15px 15px red;
+            border: 1px solid red;
+        }
+        .sales-market{
+            height: 250px;
+            box-shadow: 0 15px 15px blue;
+            border: 1px solid blue;
+        }
+        p{
+            font-size: 15px;
+        }
+        button{
+            padding: 8px 16px;
+            font-size: 17px;
+            border-radius: 25px;
+            border: none;
+            margin: 15px auto;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+        }
+        button:hover{
+            color: gray;
+        }
+        #cust-care{
+            background: green;
+
+            box-shadow: 0 0 5px black;
+        }
+        #write{
+            background: rgb(187, 15, 15);
+
+            box-shadow: 0 0 5px black;
+        }
+        #sales{
+            background: blue;
+            box-shadow: 0 0 5px black;
+        }
+        a{
+            font-size: 16px;
+        }
+        .customer-care a{
+            color: green;
+            text-shadow: 0 0 2px rgba(73, 129, 80, 0.637);
+        }
+        .sales-market a{
+            color: blue;
+            text-shadow: 0 0 2px rgba(76, 62, 158, 0.637);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <hr>
+        <h2>Have any questions? We'd love to hear from you</h2>
+        <div class="contact-items">
+            <div class="customer-care">
+                <h3 style="color: rgb(1, 139, 70);">Customer Care</h3>
+                <p>Our Support team is spread all over the world to give you fast response</p>
+               <a href="https://mail.google.com/mail/u/0/#inbox"> collegealloc@gmail.com </a>
+            
+            </div>
+            <div class="write-us">
+                <h3 style="color: red;">Write Us</h3>
+                <p> You can write us if you have any queries</p>
+                <a href="https://mail.google.com/mail/u/0/#inbox" style="color: red;"> collegealloc@gmail.com </a>
+          <!-- <a href="./contact-form.html"> <button id="write">Write</button></a>  u-->
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>

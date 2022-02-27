@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>FEEDBACK FORM</title>
+</head>
+<style>
+    #firstpara
+    {
+        font-family: cursive;
+        font-size: 15px;
+        background-color: rgb(87, 99, 99);
+    }
+    div:hover
+    {
+        color: rgb(150, 184, 235);
+
+    }
+    
+    
+</style>
+<body style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKq_UutifvQjD6mtmLW1adcqtziFxFR8dyMQWefkSFyn_8Raci3_KNP5UPchvE1AFmpW4&usqp=CAU);">
+<form action="http://google.co.in">
+<!-- If we remove this, every thing will move to the left of the page-->
+<div align="center" id="firstpara">
+<!--Adds a heading to the form-->
+<h1>Feedback Time!</h1>
+Enter your name:
+<!-- Input type text for small texts, specify size -->
+<input type="text" name="UserName" size=35 maxlength=35 value="">
+<!--Adds spaces - remove and see what happens -->
+</br></br>
+Enter your age group:
+<input type="text" name="Deptt" size=35 maxlength=30 value=""> </br> </br>
+What else would you like us to add on our website?
+<textarea name="Comments" cols=40 rows=1></textarea> </br> </br>
+Was our website helpful?
+<!-- Radio buttons help you choose one out of the many values -->
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=2>No
+</p>
+which exams did you appear for?
+<p>
+<!--Checkbox lets you select multiple options -->
+<input type="checkbox" name="JEE">JEE
+<input type="checkbox" name="Comed-K">Comed-K
+<input type="checkbox" name="CET">CET
+
+</p>
+Which was the best/easiest?
+<!--Select box lets you choose one of the multiple dropdown options-->
+<select name="moviepref" ><option>
+<option value=1 selected = "true">comed-k
+<option value=2 >CET
+<option value=3 >JEE
+<option value=4 >All of the above
+<option value=5 >None :(
+</select>
+</br></br>
+<!--submits the information entered in the form by the user -->
+<div id="ab">
+<input type=submit value="Submit form">
+</div>
+</div>
+</form>
+</body>
+</html>
